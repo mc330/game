@@ -16,7 +16,6 @@ public class ApiApplication {
     Retryer feignRetry() {
         return Retryer.NEVER_RETRY;
     }
-
     @Bean
     Request.Options feignOptions() {
         return new Request.Options(10 * 1000, 10 * 1000);
