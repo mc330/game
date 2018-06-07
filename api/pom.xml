@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <build>
-        <finalName>ellabook-server-api</finalName>
+        <finalName>game-server-api</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
